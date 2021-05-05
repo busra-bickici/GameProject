@@ -23,7 +23,7 @@ public class Main {
 		customer.setFirstName("Büşra");
 	    customer.setLastName("Bıçkıcı");
 	    customer.setDateOfBirth (new GregorianCalendar( 1994 ,07 , 07).getTime());
-	    customer.setNationalityId("33178554860");
+	    customer.setNationalityId("00000000000");
 		customerManager.add(customer);
 
 		Game game = new Game();
